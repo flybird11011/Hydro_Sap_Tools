@@ -107,18 +107,6 @@ h1 {
   line-height: 1.65;
 }
 
-.app-url {
-  color: var(--accent-strong);
-  font-size: 14px;
-  font-weight: 600;
-  overflow-wrap: anywhere;
-  text-decoration: none;
-}
-
-.app-url:hover {
-  text-decoration: underline;
-}
-
 .open-button {
   display: inline-flex;
   min-height: 44px;
@@ -135,8 +123,7 @@ h1 {
   background: var(--accent-strong);
 }
 
-.open-button:focus-visible,
-.app-url:focus-visible {
+.open-button:focus-visible {
   outline: 3px solid var(--focus);
   outline-offset: 3px;
 }
