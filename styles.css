@@ -80,14 +80,17 @@ h1 {
 
 .app-icon {
   display: inline-flex;
-  width: 44px;
+  min-width: 64px;
   height: 44px;
   align-items: center;
   justify-content: center;
   border-radius: 8px;
   background: var(--accent-soft);
   color: var(--accent-strong);
+  padding: 0 10px;
+  font-size: 15px;
   font-weight: 800;
+  letter-spacing: 0;
 }
 
 .app-content h2 {
